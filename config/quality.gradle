@@ -61,7 +61,6 @@ task pmd(type: Pmd) {
 }
 
 android {
-    ndkVersion "22.1.7171670"
     lintOptions {
         abortOnError true
         xmlReport false
